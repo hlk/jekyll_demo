@@ -2,7 +2,15 @@
 　　layout: default
 　　title: 我的Blog
 　　---
+<html>
+　　<head>
 
+　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+　　　　<title>{{ page.title }}</title>
+
+　　</head>
+<body>
 　　<h2>{{ page.title }}</h2>
 
 　　<p>最新文章</p>
@@ -16,3 +24,5 @@
 　　　　{% endfor %}
 
 　　</ul>
+</body>
+</html>
